@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 야간 모드에서 기본 창과 시스템 아이콘의 대비를 지정한다. -->
+<resources>
+    <style name="Theme.ShortFree" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">@color/action</item>
+        <item name="android:windowBackground">@color/canvas</item>
+    </style>
+</resources>

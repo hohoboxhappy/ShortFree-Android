@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 화면 배경과 글자, 기본 동작의 색을 정의한다. -->
+<resources>
+    <color name="canvas">#101812</color>
+    <color name="ink">#E1E9DF</color>
+    <color name="action">#A6D4AE</color>
+    <color name="on_action">#10331E</color>
+    <color name="panel">#263D2B</color>
+</resources>

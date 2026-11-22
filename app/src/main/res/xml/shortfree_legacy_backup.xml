@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 이하에서 사용자의 기기별 동의와 설정을 백업에서 제외합니다. -->
+<full-backup-content>
+    <exclude domain="file" path="." />
+</full-backup-content>

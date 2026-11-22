@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 실행 화면과 서비스 창이 시스템의 명암 설정을 따르도록 한다. -->
+<resources>
+    <style name="Theme.ShortFree" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/action</item>
+        <item name="android:windowBackground">@color/canvas</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Theme.ShortFree.Overlay" parent="@style/Theme.ShortFree">
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>
