@@ -4,6 +4,8 @@ YouTube Shorts와 Instagram Reels를 열면 첫 영상 하나를 허용합니다
 
 이 프로젝트는 개인용 테스트 단계입니다. 최소 설치 버전은 Android 8.0(API 26)입니다. 차단 처리에는 인터넷 연결이 필요하지 않습니다.
 
+설치 문제, 차단 동작, 개선 제안은 공개 이슈로 받습니다. GitHub 계정으로 로그인하면 작성할 수 있습니다. **[피드백 남기기](https://github.com/hohoboxhappy/ShortFree-Android/issues/new?template=feedback.yml)**
+
 ## 갤럭시에서 설치
 
 1. 이 저장소의 **Releases** 탭에서 테스트 릴리스의 `ShortFree-v1.0.4-release.apk`를 내려받습니다. 같은 릴리스에 첨부된 `.sha256` 파일로 APK의 체크섬을 확인할 수 있습니다. 갤럭시의 **내 파일 → 다운로드**에서 APK를 열어 설치합니다.

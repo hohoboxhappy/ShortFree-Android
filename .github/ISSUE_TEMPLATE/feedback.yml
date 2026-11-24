@@ -1,0 +1,44 @@
+# ShortFree 사용자가 설치 문제와 개선 의견을 남기는 GitHub 양식입니다.
+name: ShortFree 피드백
+description: 설치 문제, 쇼츠·릴스 차단 동작, 사용 소감과 개선 제안을 남겨주세요.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        피드백은 공개 이슈로 게시됩니다. 스크린샷을 첨부할 때는 계정 이름과 개인 정보를 가려주세요.
+  - type: dropdown
+    id: category
+    attributes:
+      label: 피드백 유형
+      options:
+        - 설치 또는 접근성 권한
+        - YouTube 쇼츠 차단
+        - Instagram 릴스 차단
+        - 개선 제안
+        - 사용 소감 또는 기타
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 피드백 내용
+      description: 문제가 있었다면 어떤 순서로 했을 때 어떤 일이 생겼는지 적어주세요. 경고 문구가 있으면 함께 적어주세요.
+      placeholder: 쇼츠 첫 영상을 열고 바로 위로 밀었더니 두 번째 영상이 계속 재생됐어요.
+    validations:
+      required: true
+  - type: input
+    id: shortfree-version
+    attributes:
+      label: ShortFree 버전
+      description: 앱 상단 ShortFree 제목 아래에 표시된 버전을 적어주세요.
+      placeholder: "예: 1.0.4"
+  - type: input
+    id: device
+    attributes:
+      label: 휴대폰과 운영체제 버전
+      placeholder: "예: 갤럭시 S24 · Android 16 · One UI 8"
+  - type: input
+    id: target-app
+    attributes:
+      label: YouTube 또는 Instagram 앱 버전
+      description: 쇼츠나 릴스 동작을 제보할 때 해당 앱 버전을 아는 경우 적어주세요.
